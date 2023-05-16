@@ -40,7 +40,7 @@ button {
 .logo-studio {
   color: var(--black);
 }
-.header-main {
+.solutions {
   color: var(--white);
   background-color: var(--h1-background);
   width: 1600px;
@@ -48,9 +48,68 @@ button {
   position: relative;
 }
 
-.header-main .content {
+.solutions .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.solutions-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+}
+.solutions-example-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+}
+.solutions-example {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--text-color);
+}
+.whatwedo-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+}
+.team-member-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+}
+.team-member-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--white);
+}
+footer {
+  background-color: var(--h1-background);
+}
+.logo-studio-light {
+  color: var(--white);
+}
+.address-6alpha {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--white6alpha);
+}
+.portfolio-item-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
 }

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <title>Zadanie domowe - WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -19,7 +24,7 @@
         <section>
           <h3>
             <a href="#team">Agencja</a>
-            <a href="#whatwedo">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
             <a href="#contact">Kontakt</a>
           </h3>
         </section>
@@ -63,8 +68,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Technocrack</h3>
-                <p>Strona internetowa</p>
+                <h3 class="portfolio-item-header">Technocrack</h3>
+                <p class="portfolio-item-description">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -76,8 +81,10 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Grafika New Orlean vs Golden Star</h3>
-                <p>Dizajn</p>
+                <h3 class="portfolio-item-header">
+                  Grafika New Orlean vs Golden Star
+                </h3>
+                <p class="portfolio-item-description">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -89,8 +96,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Restauracja Seafood</h3>
-                <p>Aplikacja</p>
+                <h3 class="portfolio-item-header">Restauracja Seafood</h3>
+                <p class="portfolio-item-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -102,8 +109,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Projekt Prime</h3>
-                <p>Marketing</p>
+                <h3 class="portfolio-item-header">Projekt Prime</h3>
+                <p class="portfolio-item-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -115,8 +122,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Projekt Boxes</h3>
-                <p>Aplikacja</p>
+                <h3 class="portfolio-item-header">Projekt Boxes</h3>
+                <p class="portfolio-item-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -128,8 +135,10 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Inspiration has no Borders</h3>
-                <p>Strona internetowa</p>
+                <h3 class="portfolio-item-header">
+                  Inspiration has no Borders
+                </h3>
+                <p class="portfolio-item-description">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -141,8 +150,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Magazyn Limited Edition</h3>
-                <p>Dizajn</p>
+                <h3 class="portfolio-item-header">Magazyn Limited Edition</h3>
+                <p class="portfolio-item-description">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -154,8 +163,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Projekt LAB</h3>
-                <p>Marketing</p>
+                <h3 class="portfolio-item-header">Projekt LAB</h3>
+                <p class="portfolio-item-description">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -167,8 +176,8 @@
                 width="370"
                 height="294" />
               <figcaption>
-                <h3>Growing Business</h3>
-                <p>Aplikacja</p>
+                <h3 class="portfolio-item-header">Growing Business</h3>
+                <p class="portfolio-item-description">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -178,11 +187,22 @@
     <footer>
       <section id="contact">
         <a href="https://roeee2.github.io/goit-markup-hw-01/"
-          ><h2>WebStudio</h2></a
+          ><h2>
+            <span class="logo">Web</span
+            ><span class="logo-studio-light">Studio</span>
+          </h2></a
         >
-        <address>
-          m. Warszawa, Aleje Jerozolimskie 21 info@example.com +48 111 111 111
-        </address>
+        <div class="address">
+          <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+          <span class="address-6alpha">
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul></span
+          >
+        </div>
       </section>
     </footer>
   </body>

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <title>Zadanie domowe - WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -33,37 +38,39 @@
     </header>
     <main>
       <article>
-        <section class="header-main">
+        <section class="solutions">
           <div class="content">
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <h1 class="solutions-title">
+              EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+            </h1>
             <button type="button">Zamów usługę</button>
           </div>
         </section>
         <section>
-          <h4>Lorem ipsum</h4>
-          <p>
+          <h4 class="solutions-example-header">Lorem ipsum</h4>
+          <p class="solutions-example">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
-          <h4>Lorem ipsum</h4>
-          <p>
+          <h4 class="solutions-example-header">Lorem ipsum</h4>
+          <p class="solutions-example">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
-          <h4>Lorem ipsum</h4>
-          <p>
+          <h4 class="solutions-example-header">Lorem ipsum</h4>
+          <p class="solutions-example">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
-          <h4>Lorem ipsum</h4>
-          <p>
+          <h4 class="solutions-example-header">Lorem ipsum</h4>
+          <p class="solutions-example">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </section>
       </article>
       <section id="whatwedo">
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="whatwedo-title">Czym się zajmujemy</h2>
         <img
           src="images/whatwedo1.jpg"
           width="370"
@@ -81,7 +88,7 @@
           alt="Creative artist web design with working colour selection graphic tablet." />
       </section>
       <section id="team">
-        <h2>Nasz zespół</h2>
+        <h2 class="whatwedo-title">Nasz zespół</h2>
         <article>
           <figure>
             <img
@@ -90,7 +97,7 @@
               height="260"
               alt="Smiling product designer - John Doe." />
             <figcaption>
-              <h4>John Doe</h4>
+              <h4 class="team-member-header">John Doe</h4>
               <p>Product designer</p>
             </figcaption>
           </figure>
@@ -101,7 +108,7 @@
               height="260"
               alt="Smiling frontend developer - John Doe." />
             <figcaption>
-              <h4>John Doe</h4>
+              <h4 class="team-member-header">John Doe</h4>
               <p>Frontend developer</p>
             </figcaption>
           </figure>
@@ -112,7 +119,7 @@
               height="260"
               alt="Smiling marketing team member - John Doe." />
             <figcaption>
-              <h4>John Doe</h4>
+              <h4 class="team-member-header">John Doe</h4>
               <p>Marketing</p>
             </figcaption>
           </figure>
@@ -123,7 +130,7 @@
               height="260"
               alt="Smiling UI designer - John Doe." />
             <figcaption>
-              <h4>John Doe</h4>
+              <h4 class="team-member-header">John Doe</h4>
               <p>UI designer</p>
             </figcaption>
           </figure>
@@ -133,11 +140,22 @@
     <footer>
       <section id="contact">
         <a href="https://roeee2.github.io/goit-markup-hw-01/"
-          ><h2>WebStudio</h2></a
+          ><h2>
+            <span class="logo">Web</span
+            ><span class="logo-studio-light">Studio</span>
+          </h2></a
         >
-        <address>
-          m. Warszawa, Aleje Jerozolimskie 21 info@example.com +48 111 111 111
-        </address>
+        <div class="address">
+          <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+          <span class="address-6alpha">
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul></span
+          >
+        </div>
       </section>
     </footer>
   </body>
