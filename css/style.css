@@ -9,11 +9,9 @@
   --white6alpha: #ffffff99;
 }
 body {
-  background: var(--background-color);
   font-family: "Roboto", "Arial", "sans-serif";
   color: #212121;
   justify-content: center;
-  width: 1600px;
   margin: 0 auto;
 }
 
