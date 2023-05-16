@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-header {
+.header-background {
   background: var(--white);
 }
 
@@ -91,7 +91,7 @@ button {
   line-height: 1.714;
   color: var(--white);
 }
-footer {
+.footer-background {
   background-color: var(--h1-background);
 }
 .logo-studio-light {
