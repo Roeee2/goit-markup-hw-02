@@ -116,9 +116,9 @@ a:focus {
   cursor: pointer;
   background: var(--button-grey);
   border: none;
-  padding: 0;
   text-decoration: none;
   display: inline-block;
+  padding: 6px 22px;
 }
 
 .portfolio-types:hover,
