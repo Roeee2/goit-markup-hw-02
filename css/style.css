@@ -132,3 +132,19 @@ a:focus {
 .portfolio-types:focus a {
   color: var(--white);
 }
+.order-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--white);
+  cursor: pointer;
+  background: var(--web-studio-blue);
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 41px 10px 42px;
+}
+.order-service:hover a,
+.order-service:focus a {
+  color: var(--white6alpha);
+}
